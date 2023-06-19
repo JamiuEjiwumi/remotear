@@ -4,13 +4,10 @@
 # https://aka.ms/yaml
 
 trigger:
-  - none
+  - main
 
 pool: 
   name: 'Default'
-  demands:
-    - msbuild
-    - visualstudio
 
 variables:
   buildPlatform: 'Any CPU'
